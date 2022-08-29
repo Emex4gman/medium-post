@@ -3,7 +3,8 @@ const template = document.createElement("template");
 template.innerHTML = `
 <style>
 .medium-blogpost {
-  width: 300px;
+  min-width: 300px;
+  max-width: 700px;
   display: flex;
   flex-direction: column;
   border: 1px solid rgba(131, 131, 131, 0.2);
